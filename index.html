@@ -1,70 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset='utf-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- ==================FONT AWESOME================== -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ==================FONT AWESOME================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6
      .0/css/all.min.css" />
-     
-     <!-- ====================CSS========================= -->
-      <link rel="stylesheet" href="C:\Users\comp\OneDrive\Desktop\VS-CODE\My-Portfolio/css/styles.css" />
-    <title>Jaiswal Vikas Portfolio</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+
+  <!-- ====================CSS========================= -->
+  <link rel="stylesheet" href="C:\Users\comp\OneDrive\Desktop\VS-CODE\My-Portfolio/css/styles.css" />
+  <title>Jaiswal Vikas Portfolio</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
 </head>
+
 <body>
   <!-- ====================STYLE SWITCHER================ -->
-   <div class="styles__switcher"></div>
+  <div class="styles__switcher"></div>
 
-   <!-- =================== HEADER======================= -->
-    <header class="header">
-      <nav class="nav container">
-        <a href="index.html" class="nav__logo"> Jaiswal Vikas</a>
+  <!-- =================== HEADER======================= -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo"> Jaiswal Vikas</a>
 
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#home" class="nav__link active-link">Home</a> 
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#home" class="nav__link active-link">Home</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#about" class="nav__link ">About</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#qualification" class="nav__link">Experience</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#services" class="nav__link">Services</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#work" class="nav__link">Portfalio</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#contact" class="nav__link">Contact</a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+  <!-- =================== MAIN ======================== -->
+  <main class="main">
+    <section class="home" id="home">
+      <div class="home_container container grid">
+        <div class="home__content">
+          <span class="home_small">Hello</span>
+          <h1 class="home__title"><span>I'm </span>Jaiswal Vikas <br /> a <span>Backend/Web Developer</span></h1>
+          <p class="home__description">
+            To seek better growth opportunities and a challenging environment, where I can
+            make the best use of my experience, and talent, and expand my skills besides enhancing
+            my practical knowledge while being resourceful, innovative, and flexible.
+          </p>
+          <div class="home__btns">
+            <a href="#contact" class="btn">Hire Me</a>
+            <a href="portfolio" class="btn btn--transparent">Portfolio</a>
+          </div>
+        </div>
+        <div class="home__img-wrapper">
+          <img src="img/profile.png" alt="" class="home__img" />
+        </div>
+      </div>
+    </section>
+    <!-- ================ ABOUT======================== -->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+      <div class="about__img-wrapper">
+        <img src="" alt="" class="about">
+      </div>
+
+      <div class="about__content">
+        <h2 class="section__title" data-title="Who am i?">
+          I'm Jaiswal Vikas, A Software Developer and Backend Developer
+        </h2>
+        <p class="about__description"> </p>
+        <ul class="about__data grid">
+          <li class="data__item">
+            <h3 class="data__title">Name</h3>
+            <snap class="data__description">Jaiswal Vikas</snap>
           </li>
 
-          <li class="nav__item">
-            <a href="#about" class="nav__link active-link">About</a> 
-          </li>
+          <li class="data__item">
+            <h3 class="data__title">Age</h3>
+            <snap class="data__description">27 Years</snap>
 
-          <li class="nav__item">
-            <a href="#experience" class="nav__link">Experience</a> 
-          </li>
+            <li class="data__item">
+              <h3 class="data__title">From</h3>
+              <snap class="data__description">Pune, Maharashtra</snap>
+            </li>
 
-          <li class="nav__item">
-            <a href="#services" class="nav__link">Services</a> 
+            <li class="data__item">
+              <h3 class="data__title">Email</h3>
+              <snap class="data__description about__link">jaiswalvikas7276@gmail.com</snap>
+            </li>
           </li>
-
-          <li class="nav__item">
-            <a href="#portfalio" class="nav__link">Portfalio</a> 
-          </li>
-
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a> 
-          </li>
-
         </ul>
-      </nav>
-    </header>
-   <!-- =================== MAIN ======================== -->
-    <main class="main">
-      <section class="home" id="home"></section>
-      <!-- ================ ABOUT======================== -->
-      <section class="about" id="about"></section>
-      <!-- ================ QUALIFICATION =============== -->
-      <section class="qualification" id="qualification"></section>
-      <!-- ================ SERVICE ===================== -->
-       <section class="sercices" id="sercices"></section>
-      <!-- ================ SKILLS ====================== -->
-       <section class="skills"></section>
-      <!-- ================ PORTFOLIO =================== -->
+        <div class="about__botton">
+          <a href=""  class="btn">Download Cv</a>
+          <div class="about__social-links">
+            <a href="" class="about__social-links">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+
+            <a href="" class="about__social-links">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="" class="about__social-links">
+              <i class="fa-brands fa-linkedin-in">
+            </a>
+
+            <a href="" class="about__social-links">
+             <i class="fa-brands fa-github"></i>
+              </i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </section>
+    <!-- ================ QUALIFICATION =============== -->
+    <section class="qualification" id="qualification"></section>
+    <!-- ================ SERVICE ===================== -->
+    <section class="sercices" id="sercices"></section>
+    <!-- ================ SKILLS ====================== -->
+    <section class="skills"></section>
+    <!-- ================ PORTFOLIO =================== -->
 
 
-    </main>
+  </main>
 </body>
-</html>>
+
+</html>
