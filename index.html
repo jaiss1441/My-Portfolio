@@ -12,13 +12,53 @@
   <link rel="stylesheet" href="CSS/styles.css" />
   <title>Jaiswal Vikas Portfolio</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <script src="https://kit.fontawesome.com/9d70e549dc.js" crossorigin="anonymous"></script>
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
   <script src='main.js'></script>
 </head>
 
 <body>
   <!-- ====================STYLE SWITCHER================ -->
-  <div class="styles__switcher"></div>
+   <input type="radio" name="color" id="color-1" />
+   <input type="radio" name="color" id="color-2" />
+   <input type="radio" name="color" id="color-3" />
+   <input type="radio" name="color" id="color-4" />
+   <input type="radio" name="color" id="color-5" />
+   <input type="radio" name="color" id="color-6" />
+   <input type="radio" name="color" id="color-7" />
+   <input type="radio" name="color" id="color-8" />
+   <input type="radio" name="color" id="color-9" />
+   <input type="radio" name="color" id="color-10" />
+
+   <input type="checkbox" id="toggler" />
+   <input type="checkbox" id="day-night" />
+  <div class="style__switcher">
+    <label for="toggler" class="style__switcher-toggler">
+      <i class="fa-solid fa-gear fa-spin"></i>
+    </label>
+
+    <label for="day-night" class="style__switcher-theme">
+      <i class="fa-solid fa-sun"></i>
+      <i class="fa-solid fa-moon"></i>
+    </label>
+
+    <h3 class="style__switcher-title">Theme Colors</h3>
+
+    <div class="style__switcher-colors">
+      <label for="color-1" class="color-1 color"></label>
+      <label for="color-2" class="color-2 color"></label>
+      <label for="color-3" class="color-3 color"></label>
+      <label for="color-4" class="color-4 color"></label>
+      <label for="color-5" class="color-5 color"></label>
+      <label for="color-6" class="color-6 color"></label>
+      <label for="color-7" class="color-7 color"></label>
+      <label for="color-8" class="color-8 color"></label>
+      <label for="color-9" class="color-9 color"></label>
+      <label for="color-10" class="color-10 color"></label>
+
+    </div>
+
+  </div>
 
   <!-- =================== HEADER======================= -->
   <header class="header">
@@ -39,11 +79,11 @@
         </li>
 
         <li class="nav__item">
-          <a href="#services" class="nav__link">Services</a>
+          <a href="#sercices" class="nav__link">Services</a>
         </li>
 
         <li class="nav__item">
-          <a href="#work" class="nav__link">Portfalio</a>
+          <a href="#works" class="nav__link">Portfalio</a>
         </li>
 
         <li class="nav__item">
@@ -283,12 +323,417 @@
       </div>
     </section>
     <!-- ================ SERVICE ===================== -->
-    <section class="sercices" id="sercices"></section>
+    <section class="sercices section" id="sercices">
+      <h2 class="section__title title-center" data-title="My Journey">
+        What I do for you
+      </h2>
+
+      <div class="services__container container grid">
+        <div class="services__item">
+          <!-- <i class="fa-solid fa-pen-to-square "></i> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-nut services__icon" viewBox="0 0 16 16">
+            <path d="m11.42 2 3.428 6-3.428 6H4.58L1.152 8 4.58 2zM4.58 1a1 1 0 0 0-.868.504l-3.428 6a1 1 0 0 0 0 .992l3.428 6A1 1 0 0 0 4.58 15h6.84a1 1 0 0 0 .868-.504l3.429-6a1 1 0 0 0 0-.992l-3.429-6A1 1 0 0 0 11.42 1z"/>
+            <path d="M6.848 5.933a2.5 2.5 0 1 0 2.5 4.33 2.5 2.5 0 0 0-2.5-4.33m-1.78 3.915a3.5 3.5 0 1 1 6.061-3.5 3.5 3.5 0 0 1-6.062 3.5z"/>
+          </svg>
+
+          <h3 class="services_title">UI/UX Design</h3>
+          <p class="services__description">Know the position and aspirations of the client side in handling customer database, Accounting for 15% by Contribution to
+            Strategic orientation. </p>
+            
+            <span class="services__no">01</span>
+        </div>
+
+        <div class="services__item">
+          <!-- <i class="bi-file-code   "></i> -->
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-code-square services__icon" viewBox="0 0 16 16">
+            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+            <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0"/>
+          </svg>
+
+          <h3 class="services_title">Web Developer</h3>
+          <p class="services__description">Know the position and aspirations of the client side in handling customer database, Accounting for 15% by Contribution to
+            Strategic orientation. </p>
+            
+            <span class="services__no">02</span>
+        </div>
+
+
+        <div class="services__item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-laptop services__icon" viewBox="0 0 16 16">
+            <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+          </svg>
+
+          <h3 class="services_title">Frantend Developer</h3>
+          <p class="services__description">Know the position and aspirations of the client side in handling customer database, Accounting for 15% by Contribution to
+            Strategic orientation. </p>
+            
+            <span class="services__no">03</span>
+        </div>
+
+        <div class="services__item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-building-gear services__icon" viewBox="0 0 16 16">
+            <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1z"/>
+            <path d="M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm4.386 1.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382zM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+          </svg>
+
+          <h3 class="services_title">ERP Developer/Consultant</h3>
+          <p class="services__description">Know the position and aspirations of the client side in handling customer database, Accounting for 15% by Contribution to
+            Strategic orientation. </p>
+            
+            <span class="services__no">04</span>
+        </div>
+      </div>
+    </section>
     <!-- ================ SKILLS ====================== -->
-    <section class="skills"></section>
+    <section class="skills section">
+      <h2 class="section__title title-center" data-title="My Talent">
+        Professional Skills
+      </h2>
+
+      <div class="skills__container container grid">
+        <div class="skills__item">
+          <div class="skills__tatles">
+            <h3 class="skills__name">Java</h3>
+            <span class="skills__no">70%</span>
+          </div>
+          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
+            P</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__tatles">
+            <h3 class="skills__name">Spring Boot</h3>
+            <span class="skills__no">70%</span>
+          </div>
+          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
+            P</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 75%">
+                <span></span>
+              </div>
+            </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__tatles">
+            <h3 class="skills__name">MySQL</h3>
+            <span class="skills__no">70%</span>
+          </div>
+          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
+            P</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 90%">
+                <span></span>
+              </div>
+            </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__tatles">
+            <h3 class="skills__name">JavaScript</h3>
+            <span class="skills__no">70%</span>
+          </div>
+          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
+            P</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 75%">
+                <span></span>
+              </div>
+            </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__tatles">
+            <h3 class="skills__name">HTML</h3>
+            <span class="skills__no">70%</span>
+          </div>
+          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
+            P</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 70%">
+                <span></span>
+              </div>
+            </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__tatles">
+            <h3 class="skills__name">CSS</h3>
+            <span class="skills__no">70%</span>
+          </div>
+          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
+            P</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 80%">
+                <span></span>
+              </div>
+            </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__tatles">
+            <h3 class="skills__name">React</h3>
+            <span class="skills__no">70%</span>
+          </div>
+          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
+            P</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__tatles">
+            <h3 class="skills__name">Docker</h3>
+            <span class="skills__no">70%</span>
+          </div>
+          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
+            P</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__tatles">
+            <h3 class="skills__name">Kubernate</h3>
+            <span class="skills__no">70%</span>
+          </div>
+          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
+            P</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__tatles">
+            <h3 class="skills__name">ZOHO CRM</h3>
+            <span class="skills__no">70%</span>
+          </div>
+          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
+            P</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    </section>
     <!-- ================ PORTFOLIO =================== -->
+      <section class="works section" id="works">
+        <h2 class="section__title title-center" data-title="My Talent">
+          Recent Work
+        </h2>
+        <div class="work__container container grid">
+          <div class="work__card">
+            <img src="/img/1at_project_img.jpg" alt="" class="work__img">
+
+            <div class="work__details">
+              <h3 class="work__title">Web design</h3>
+              <spam class="work__description">This short description</spam>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="/img/2nd_project_img.jpg" alt="" class="work__img">
+
+            <div class="work__details">
+              <h3 class="work__title">Backend Develop</h3>
+              <spam class="work__description">This short description</spam>
+            </div>
+          </div>
 
 
+          <div class="work__card">
+            <img src="/img/3rd_project_img.jpg" alt="" class="work__img">
+
+            <div class="work__details">
+              <h3 class="work__title">UX/UI design</h3>
+              <spam class="work__description">This short description</spam>
+            </div>
+          </div>
+
+
+
+          <div class="work__card">
+            <img src="/img/crm_project_img.jpg" alt="" class="work__img">
+
+            <div class="work__details">
+              <h3 class="work__title">CRM Implementation</h3>
+              <spam class="work__description">This short description</spam>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    <!-- ================ Testimonials ================ -->
+     <section class="testimonials section">
+      <h2 class="section__title title-center" data-title="Testimonials">
+        What My client Say
+      </h2>
+
+      <div class="testimonials__container container grid">
+        <div class="testimonials__item">
+          <p class="testimonials__description"> Keyword search over encrypted data allows users to search for specific information while keeping the data encrypted in the 
+            cloud.</p>
+
+            <div class="testimonials__data">
+              <img src="img/profile.png" alt="" class="testimonials__img">
+
+              <div>
+                <h3 class="testimonials__name">Saurabh Tiwari</h3>
+                <span class="testimonials__identity">Hydrabad, Maharashtra</span>
+              </div>
+            </div>
+        </div>
+
+        <div class="testimonials__item">
+          <p class="testimonials__description"> Keyword search over encrypted data allows users to search for specific information while keeping the data encrypted in the 
+            cloud.</p>
+
+            <div class="testimonials__data">
+              <img src="img/profile.png" alt="" class="testimonials__img">
+
+              <div>
+                <h3 class="testimonials__name">Saurabh Pathkar</h3>
+                <span class="testimonials__identity">Pune, Maharashtra</span>
+              </div>
+            </div>
+        </div>
+      </div>
+     </section>
+
+    <!-- ================ CONTACT ===================== -->
+    <section class="contact section" id="contact">
+      <h2 class="section__title title-center" data-title="Get in touch">
+        Contact Me
+      </h2>
+
+      <div class="contact__container container grid">
+        <div class="contact__details">
+          <div class="contact__item">
+            <i class="fa-solid fa-phone contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Call Me</h3>
+              <span class="contact__data">+91 8888200312</span>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <i class="fa-solid fa-envelope contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Email Me</h3>
+              <span class="contact__data">jaiswalvikas7276@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <i class="fa-solid fa-location-dot contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Address</h3>
+              <span class="contact__data">Old Bazar Road, Majalgaon, Beed, Maharashtra-431131</span>
+            </div>
+          </div>
+
+
+        </div>
+
+        <form action="" class="contact__form">
+          <div class="form__group">
+            <div class="form__input">
+            <input type="text" placeholder="Name" class="input__control">
+          </div>
+
+          <div class="form__input">
+            <input type="email" placeholder="Email" class="input__control">
+          </div>
+        </div>
+
+        <div class="form__input">
+          <input type="text" placeholder="Subject" class="input__control">
+        </div>
+
+        <div class="form__input">
+          <textarea name="" id="" placeholder="Message"  cols="30" rows="10" class="input__control textarea"></textarea>
+        </div>
+
+        <button class="btn contact__btn">Send Message</button>
+        </form>
+      </div>
+
+    </section>
+    <!-- ================ FOOTER ====================== -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <p class="footer__copyright">&copy; 2024 Vikas. All Rights Reserved</p>
+
+
+        <div class="footer__social-links">
+
+          <a href="" class="footer__social-links">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-twitter-x" viewBox="0 0 16 16">
+              <path
+                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+            </svg>
+
+          </a>
+
+          <a href="" class="footer__social-links">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-instagram" viewBox="0 0 16 16">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+            </svg>
+          </a>
+
+          <a href="" class="footer__social-links">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-facebook" viewBox="0 0 16 16">
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+            </svg>
+          </a>
+
+          <a href="" class="footer__social-links">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </footer>
   </main>
 </body>
 
