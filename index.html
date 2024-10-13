@@ -5,33 +5,31 @@
   <meta charset='utf-8'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- ==================FONT AWESOME================== -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6
-     .0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- ====================CSS========================= -->
   <link rel="stylesheet" href="CSS/styles.css" />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <title>Jaiswal Vikas Portfolio</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <script src="https://kit.fontawesome.com/9d70e549dc.js" crossorigin="anonymous"></script>
-  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-  <script src='main.js'></script>
 </head>
 
 <body>
   <!-- ====================STYLE SWITCHER================ -->
-   <input type="radio" name="color" id="color-1" />
-   <input type="radio" name="color" id="color-2" />
-   <input type="radio" name="color" id="color-3" />
-   <input type="radio" name="color" id="color-4" />
-   <input type="radio" name="color" id="color-5" />
-   <input type="radio" name="color" id="color-6" />
-   <input type="radio" name="color" id="color-7" />
-   <input type="radio" name="color" id="color-8" />
-   <input type="radio" name="color" id="color-9" />
-   <input type="radio" name="color" id="color-10" />
+  <input type="radio" name="color" id="color-1" />
+  <input type="radio" name="color" id="color-2" />
+  <input type="radio" name="color" id="color-3" />
+  <input type="radio" name="color" id="color-4" />
+  <input type="radio" name="color" id="color-5" />
+  <input type="radio" name="color" id="color-6" />
+  <input type="radio" name="color" id="color-7" />
+  <input type="radio" name="color" id="color-8" />
+  <input type="radio" name="color" id="color-9" />
+  <input type="radio" name="color" id="color-10" />
 
-   <input type="checkbox" id="toggler" />
-   <input type="checkbox" id="day-night" />
+  <input type="checkbox" id="toggler" />
+  <input type="checkbox" id="day-night" />
   <div class="style__switcher">
     <label for="toggler" class="style__switcher-toggler">
       <i class="fa-solid fa-gear fa-spin"></i>
@@ -65,486 +63,547 @@
     <nav class="nav container">
       <a href="index.html" class="nav__logo"> Vikas</a>
 
+
+      <button class="nav__toggle" id="nav__toggle__1" iaria-label="Toggle navigation">
+        &#9776; <!-- Hamburger icon -->
+      </button>
+
       <ul class="nav__list">
         <li class="nav__item">
           <a href="#home" class="nav__link active-link">Home</a>
         </li>
-
         <li class="nav__item">
-          <a href="#about" class="nav__link ">About</a>
+          <a href="#about" class="nav__link">About</a>
         </li>
-
         <li class="nav__item">
           <a href="#qualification" class="nav__link">Experience</a>
         </li>
-
         <li class="nav__item">
           <a href="#sercices" class="nav__link">Services</a>
         </li>
-
         <li class="nav__item">
-          <a href="#works" class="nav__link">Portfalio</a>
+          <a href="#works" class="nav__link">Portfolio</a>
         </li>
-
         <li class="nav__item">
           <a href="#contact" class="nav__link">Contact</a>
         </li>
-
       </ul>
     </nav>
   </header>
   <!-- =================== MAIN ======================== -->
   <main class="main">
-    <section class="home" id="home">
-      <div class="home_container container grid">
-        <div class="home__content">
-          <span class="home_small">Hello</span>
-          <h1 class="home__title"><span>I'm </span>Vikas <br /> a <span>Backend/Web Developer</span></h1>
-          <p class="home__description">
-            To seek better growth opportunities and a challenging environment, where I can
-            make the best use of my experience, and talent, and expand my skills besides enhancing
-            my practical knowledge while being resourceful, innovative, and flexible.
-          </p>
-          <div class="home__btns">
-            <a href="#contact" class="btn">Hire Me</a>
-            <a href="portfolio" class="btn btn--transparent">Portfolio</a>
-          </div>
-        </div>
-        <div class="home__img-wrapper">
-          <img src="img/profile.png" alt="" class="home__img" />
-        </div>
-      </div>
-    </section>
-    <!-- ================ ABOUT======================== -->
-    <section class="about section" id="about">
-      <div class="about__container container grid">
-        <div class="about__img-wrapper">
-          <img src="img/About_img.jpg" alt="" class="about__img">
-          <img src="img/About_img.jpg" alt="" class="about__img">
-          <img src="img/About_img.jpg" alt="" class="about__img">
-          <!-- <img src="img/About_img.jpg" alt="" class="about__img"> -->
-        </div>
-
-        <div class="about__content">
-          <h2 class="section__title" data-title="Who am i?">
-            I'm Vikas, A Software Developer and Backend Developer
-          </h2>
-          <p class="about__description">
-            To seek better growth opportunities and a challenging environment, where I can
-            make the best use of my experience, and talent, and expand my skills besides enhancing
-            my practical knowledge while being resourceful, innovative, and flexible.
-          </p>
-          <ul class="about__data grid">
-            <li class="data__item">
-              <h3 class="data__title">Name:</h3>
-              <snap class="data__description">Jaiswal Vikas</snap>
-            </li>
-
-            <li class="data__item">
-              <h3 class="data__title">Age:</h3>
-              <snap class="data__description">27 Years</snap>
-            </li>
-            <li class="data__item">
-              <h3 class="data__title">From:</h3>
-              <snap class="data__description">Pune, Maharashtra</snap>
-            </li>
-
-            <li class="data__item">
-              <h3 class="data__title">Email:</h3>
-              <snap class="data__description about__link">jaiswalvikas7276@gmail.com</snap>
-            </li>
-          </ul>
-
-          <div class="about__button">
-            <a href="" class="btn">Download Cv</a>
-            <div class="about__social-links">
-
-              <a href="" class="about__social-links">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-twitter-x" viewBox="0 0 16 16">
-                  <path
-                    d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
-                </svg>
-
-              </a>
-
-              <a href="" class="about__social-links">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-instagram" viewBox="0 0 16 16">
-                  <path
-                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
-                </svg>
-              </a>
-
-              <a href="" class="about__social-links">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-facebook" viewBox="0 0 16 16">
-                  <path
-                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
-                </svg>
-              </a>
-
-              <a href="" class="about__social-links">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
-                  viewBox="0 0 16 16">
-                  <path
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-                </svg>
-              </a>
+    <div class="container__main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home_small">Hello</span>
+            <h1 class="home__title"><span>I'm </span>Vikas <br /> a <span>Software Developer</span></h1>
+            <p class="home__description">
+              I am a dedicated Backend/front-end Developer with a passion for creating efficient and scalable web
+              solutions. I aim to leverage my experience and talents in a challenging environment where I can continue
+              to grow my skills and enhance my practical knowledge. I thrive on being resourceful, innovative, and
+              adaptable in my approach to problem-solving.
+            </p>
+            <div class="home__btns">
+              <a href="#contact" class="btn">Hire Me</a>
+              <a href="#works" class="btn btn--transparent">Portfolio</a>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- ================ QUALIFICATION =============== -->
-    <section class="qualification section" id="qualification">
-      <h2 class="section__title title-center" data-title="My Journey">
-        Qualification
-      </h2>
-
-      <div class="resume__container container grid">
-        <div class="resume__group">
-          <h3 class="resume__heading">Education</h3>
-          <div class="resume__items">
-            <div class="resume__item">
-              <div class="resume__header"> 
-                <h3 class="resume__subtitle">CoderHouse Courses</h3>
-                <span class="resume__icon">+</span>
-              </div>
-              <div class="resume__content">
-                <div class="resume__date-title">
-                  <h3 class="resume__title">Backend Programming</h3>
-                  <spam class="resume__date">2023 - 2024</spam>
-                </div>
-                <p class="resume__description">
-                  The E-Pass Generator Project was for the development of backend infrastructure which performs 30% implementation
-                  project cost, used Java to increase efficiency and security in fare collection & management systems.
-                </p>
-              </div>
-            </div>
-
-            <div class="resume__item">
-              <div class="resume__header"> 
-                <h3 class="resume__subtitle">S.B.Patil College of Engineering</h3>
-                <span class="resume__icon">-</span>
-              </div>
-              <div class="resume__content">
-                <div class="resume__date-title">
-                  <h3 class="resume__title">B.E. in Computer Science</h3>
-                  <spam class="resume__date">2021 - 2024</spam>
-                </div>
-                <p class="resume__description">
-                  The E-Pass Generator Project was for the development of backend infrastructure which performs 30% implementation
-                  project cost, used Java to increase efficiency and security in fare collection & management systems.
-                </p>
-              </div>
-            </div>
-
-
-            <div class="resume__item">
-              <div class="resume__header"> 
-                <h3 class="resume__subtitle">Bharati Vidyapeeth’s Jawaharlal Nehru Institute of Technology</h3>
-                <span class="resume__icon">+</span>
-              </div>
-              <div class="resume__content">
-                <div class="resume__date-title">
-                  <h3 class="resume__title">Diploma in Computer Technology</h3>
-                  <spam class="resume__date">2018 - 2021</spam>
-                </div>
-                <p class="resume__description">
-                  The E-Pass Generator Project was for the development of backend infrastructure which performs 30% implementation
-                  project cost, used Java to increase efficiency and security in fare collection & management systems.
-                </p>
-              </div>
-            </div>
-
+          <div class="home__img-wrapper">
+            <img src="img/profile.png" alt="" class="home__img" />
           </div>
         </div>
+      </section>
+      <!-- ================ ABOUT======================== -->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__img-wrapper">
+            <img src="img/About_img.jpg" alt="" class="about__img">
+            <img src="img/About_img.jpg" alt="" class="about__img">
+            <img src="img/About_img.jpg" alt="" class="about__img">
+            <!-- <img src="img/About_img.jpg" alt="" class="about__img"> -->
+          </div>
 
+          <div class="about__content">
+            <h2 class="section__title" data-title="Who am i?">
+              I'm Vikas, A Software Developer and Backend Developer
+            </h2>
+            <p class="about__description">
+              I am a Backend/Web Developer with 1.8 years of experience, including a year as a Full Stack Developer. My
+              expertise lies in Java and Spring Boot, with hands-on experience in building robust applications using
+              MySQL, Hibernate, JPA, and REST APIs. I also have experience working with MongoDB and deploying
+              applications on AWS EC2.<br /><br />
 
-        <div class="resume__group">
-          <h3 class="resume__heading">Experience</h3>
-          <div class="resume__items">
-            <div class="resume__item">
-              <div class="resume__header"> 
-                <h3 class="resume__subtitle">Software Developer</h3>
-                <span class="resume__icon">+</span>
-              </div>
-              <div class="resume__content">
-                <div class="resume__date-title">
-                  <h3 class="resume__title">Bharati SoftTech</h3>
-                  <spam class="resume__date">2023 - 2024</spam>
-                </div>
-                <p class="resume__description">
-                  The E-Pass Generator Project was for the development of backend infrastructure which performs 30% implementation
-                  project cost, used Java to increase efficiency and security in fare collection & management systems.
-                </p>
+              In my role as a Project Consultant, I focused on optimizing workflows within business tool suites, with a
+              strong emphasis on CRM systems like Zoho CRM. This experience honed my skills in project management and
+              client collaboration, enabling me to deliver tailored solutions that drive efficiency and
+              productivity.<br /><br />
+
+              I am passionate about leveraging technology to solve complex problems and continuously seek opportunities
+              to enhance my skills and knowledge. I thrive in challenging environments and am eager to contribute to
+              innovative projects that make a meaningful impact.<br />
+            </p>
+            <ul class="about__data grid">
+              <li class="data__item">
+                <h3 class="data__title">Name:</h3>
+                <snap class="data__description">Jaiswal Vikas</snap>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Age:</h3>
+                <snap class="data__description">27 Years</snap>
+              </li>
+              <li class="data__item">
+                <h3 class="data__title">From:</h3>
+                <snap class="data__description">Pune, Maharashtra</snap>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Email:</h3>
+                <snap class="data__description about__link">jaiswalvikas7276@gmail.com</snap>
+              </li>
+            </ul>
+
+            <div class="about__button">
+              <a href="" class="btn">Download Cv</a>
+              <div class="about__social-links">
+
+                <a href="" class="about__social-links">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-twitter-x" viewBox="0 0 16 16">
+                    <path
+                      d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                  </svg>
+
+                </a>
+
+                <a href="" class="about__social-links">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                  </svg>
+                </a>
+
+                <a href="" class="about__social-links">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                  </svg>
+                </a>
+
+                <a href="" class="about__social-links">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-github" viewBox="0 0 16 16">
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                  </svg>
+                </a>
               </div>
             </div>
-
-            <div class="resume__item">
-              <div class="resume__header"> 
-                <h3 class="resume__subtitle">CloudTool Technologies Pvt Ltd</h3>
-                <span class="resume__icon">-</span>
-              </div>
-              <div class="resume__content">
-                <div class="resume__date-title">
-                  <h3 class="resume__title">Project Consultant</h3>
-                  <spam class="resume__date">Mar-2023 - Nov-2023</spam>
-                </div>
-                <p class="resume__description">
-                  The E-Pass Generator Project was for the development of backend infrastructure which performs 30% implementation
-                  project cost, used Java to increase efficiency and security in fare collection & management systems.
-                </p>
-              </div>
-            </div>
-
-
-            <div class="resume__item">
-              <div class="resume__header"> 
-                <h3 class="resume__subtitle">Mass Technologies Pvt Ltd</h3>
-                <span class="resume__icon">+</span>
-              </div>
-              <div class="resume__content">
-                <div class="resume__date-title">
-                  <h3 class="resume__title">Full Stack Developer</h3>
-                  <spam class="resume__date">Apri-2022 - Mar-2023</spam>
-                </div>
-                <p class="resume__description">
-                  The E-Pass Generator Project was for the development of backend infrastructure which performs 30% implementation
-                  project cost, used Java to increase efficiency and security in fare collection & management systems.
-                </p>
-              </div>
-            </div>
-
           </div>
         </div>
+      </section>
+      <!-- ================ QUALIFICATION =============== -->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title title-center" data-title="My Journey">
+          Qualification
+        </h2>
 
-      </div>
-    </section>
-    <!-- ================ SERVICE ===================== -->
-    <section class="sercices section" id="sercices">
-      <h2 class="section__title title-center" data-title="My Journey">
-        What I do for you
-      </h2>
+        <div class="resume__container container grid">
+          <div class="resume__group">
+            <h3 class="resume__heading">Education</h3>
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">S.B.Patil College of Engineering</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">B.E. in Computer Science</h3>
+                    <spam class="resume__date">2021 - 2024 <br>CGPA: 7.07</spam>
+                  </div>
+                  <p class="resume__description">
+                    Completed coursework in software development, data structures, algorithms, and database
+                    management.<br /><br />
+                    Developed a final year project titled E-Pass Bus, a web application utilizing Spring Boot, MongoDB,
+                    REST APIs, and a payment gateway. This project focused on streamlining the bus ticketing process and
+                    enhancing user experience.<br />
+                  </p>
+                </div>
+              </div>
 
-      <div class="services__container container grid">
-        <div class="services__item">
-          <!-- <i class="fa-solid fa-pen-to-square "></i> -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-nut services__icon" viewBox="0 0 16 16">
-            <path d="m11.42 2 3.428 6-3.428 6H4.58L1.152 8 4.58 2zM4.58 1a1 1 0 0 0-.868.504l-3.428 6a1 1 0 0 0 0 .992l3.428 6A1 1 0 0 0 4.58 15h6.84a1 1 0 0 0 .868-.504l3.429-6a1 1 0 0 0 0-.992l-3.429-6A1 1 0 0 0 11.42 1z"/>
-            <path d="M6.848 5.933a2.5 2.5 0 1 0 2.5 4.33 2.5 2.5 0 0 0-2.5-4.33m-1.78 3.915a3.5 3.5 0 1 1 6.061-3.5 3.5 3.5 0 0 1-6.062 3.5z"/>
-          </svg>
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Bharati Vidyapeeth’s Jawaharlal Nehru Institute of Technology</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Diplome in Computer Tech</h3>
+                    <spam class="resume__date">2018 - 2021 <br /> Mark's: 80.33</spam>
+                  </div>
+                  <p class="resume__description">
+                    During my diploma in Computer Technology, I gained a comprehensive understanding of programming
+                    languages, software development, and mobile application design. <br /> <br />In my final year, I
+                    developed an Android application focused on astrology, which included features like daily
+                    horoscopes, zodiac compatibility, and personalized readings. This project not only enhanced my
+                    technical skills but also allowed me to apply my knowledge in a practical, creative way. I am
+                    passionate about leveraging technology to create innovative solutions and am eager to continue
+                    exploring the field of mobile app development.
+                  </p>
+                </div>
+              </div>
 
-          <h3 class="services_title">UI/UX Design</h3>
-          <p class="services__description">Know the position and aspirations of the client side in handling customer database, Accounting for 15% by Contribution to
-            Strategic orientation. </p>
-            
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Ashok Vidyalaya And Jr.College</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">12th In Science</h3>
+                    <spam class="resume__date">2016 <br />Mark's: 64.15</spam>
+                  </div>
+                  <p class="resume__description">
+                    I completed my 12th grade with a focus on science, which provided me with a strong foundation in
+                    analytical thinking and problem-solving skills.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="resume__group">
+            <h3 class="resume__heading">Experience</h3>
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Software Developer</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Bharati SoftTech</h3>
+                    <spam class="resume__date">2023 - 2024</spam>
+                  </div>
+                  <p class="resume__description">
+                    In my role as a Software Developer, I focus on providing desktop support for employees by resolving
+                    issues related to Zoho tools. I handle support tickets via email, ensuring that technical problems
+                    are addressed promptly. Additionally, I contribute to software development projects using Java,
+                    enhancing our systems and improving user experience. This experience has sharpened my technical
+                    skills and my ability to communicate effectively with colleagues.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">CloudTool Technologies Pvt Ltd</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Project Consultant</h3>
+                    <spam class="resume__date">Mar-2023 - Nov-2023</spam>
+                  </div>
+                  <p class="resume__description">
+
+                    As a Project Consultant, I specialize in implementing various Zoho tools to optimize business
+                    processes. I focus on deploying Zoho CRM to enhance customer relationship management and
+                    implementing Zoho Forms to streamline data collection and automate workflows. My goal is to ensure
+                    that these tools are tailored to meet the specific needs of the organization, facilitating a more
+                    efficient workflow.<br /><br />
+
+                    In addition to CRM and forms, I manage the setup of Zoho Payroll to ensure accurate employee
+                    compensation and compliance, while configuring Zoho WorkDrive for effective document management and
+                    collaboration. I create customized reports and dashboards with Zoho Analytics and integrate
+                    third-party applications to enhance functionality. By providing training and support, I promote best
+                    practices, which have led to reduced operational inefficiencies and improved data accuracy.
+
+
+                  </p>
+                </div>
+              </div>
+
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Mass Technologies Pvt Ltd</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Full Stack Developer</h3>
+                    <spam class="resume__date">Apri-2022 - Mar-2023</spam>
+                  </div>
+                  <p class="resume__description">
+                    As a Full Stack Developer intern, I handle various responsibilities including documentation and
+                    database connectivity using MySQL, MongoDB, and Firebase. I develop web applications utilizing Java
+                    and frameworks such as Spring, while working in development environments like NetBeans and Eclipse.
+                    Additionally, I coordinate seminars at colleges, facilitating knowledge-sharing and networking
+                    opportunities within the tech community.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- ================ SERVICE ===================== -->
+      <section class="sercices section" id="sercices">
+        <h2 class="section__title title-center" data-title="My Journey">
+          What I do for you
+        </h2>
+
+        <div class="services__container container grid">
+          <div class="services__item">
+            <!-- <i class="fa-solid fa-pen-to-square "></i> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+              class="bi bi-nut services__icon" viewBox="0 0 16 16">
+              <path
+                d="m11.42 2 3.428 6-3.428 6H4.58L1.152 8 4.58 2zM4.58 1a1 1 0 0 0-.868.504l-3.428 6a1 1 0 0 0 0 .992l3.428 6A1 1 0 0 0 4.58 15h6.84a1 1 0 0 0 .868-.504l3.429-6a1 1 0 0 0 0-.992l-3.429-6A1 1 0 0 0 11.42 1z" />
+              <path
+                d="M6.848 5.933a2.5 2.5 0 1 0 2.5 4.33 2.5 2.5 0 0 0-2.5-4.33m-1.78 3.915a3.5 3.5 0 1 1 6.061-3.5 3.5 3.5 0 0 1-6.062 3.5z" />
+            </svg>
+
+            <h3 class="services_title">Backend Developer</h3>
+            <p class="services__description">As a Backend Developer, I focus on server-side logic and database
+              management, ensuring seamless data connectivity and processing. I work with technologies such as Java,
+              Spring, MySQL, MongoDB, and Firebase to build robust APIs and handle data storage efficiently, delivering
+              a reliable foundation for web applications.</p>
+
             <span class="services__no">01</span>
-        </div>
+          </div>
 
-        <div class="services__item">
-          <!-- <i class="bi-file-code   "></i> -->
+          <div class="services__item">
+            <!-- <i class="bi-file-code   "></i> -->
 
-          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-code-square services__icon" viewBox="0 0 16 16">
-            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
-            <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0"/>
-          </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+              class="bi bi-code-square services__icon" viewBox="0 0 16 16">
+              <path
+                d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+              <path
+                d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0" />
+            </svg>
 
-          <h3 class="services_title">Web Developer</h3>
-          <p class="services__description">Know the position and aspirations of the client side in handling customer database, Accounting for 15% by Contribution to
-            Strategic orientation. </p>
-            
+            <h3 class="services_title">Web Developer</h3>
+            <p class="services__description">In my role as a Web Developer, I design and implement dynamic,
+              user-friendly web applications. Leveraging a mix of front-end and back-end technologies, I create
+              responsive layouts and ensure optimal performance, providing a smooth user experience across various
+              devices and platforms.</p>
+
             <span class="services__no">02</span>
-        </div>
+          </div>
 
 
-        <div class="services__item">
-          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-laptop services__icon" viewBox="0 0 16 16">
-            <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
-          </svg>
+          <div class="services__item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+              class="bi bi-laptop services__icon" viewBox="0 0 16 16">
+              <path
+                d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5" />
+            </svg>
 
-          <h3 class="services_title">Frantend Developer</h3>
-          <p class="services__description">Know the position and aspirations of the client side in handling customer database, Accounting for 15% by Contribution to
-            Strategic orientation. </p>
-            
+            <h3 class="services_title">Frantend Developer</h3>
+            <p class="services__description">As a Frontend Developer, I specialize in crafting engaging user interfaces
+              using HTML, CSS, and JavaScript frameworks. My focus is on translating design concepts into functional and
+              visually appealing web pages, ensuring usability and accessibility while optimizing for performance and
+              responsiveness.</p>
+
             <span class="services__no">03</span>
-        </div>
+          </div>
 
-        <div class="services__item">
-          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-building-gear services__icon" viewBox="0 0 16 16">
-            <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1z"/>
-            <path d="M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm4.386 1.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382zM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
-          </svg>
+          <div class="services__item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+              class="bi bi-building-gear services__icon" viewBox="0 0 16 16">
+              <path
+                d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1z" />
+              <path
+                d="M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm4.386 1.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382zM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0" />
+            </svg>
 
-          <h3 class="services_title">ERP Developer/Consultant</h3>
-          <p class="services__description">Know the position and aspirations of the client side in handling customer database, Accounting for 15% by Contribution to
-            Strategic orientation. </p>
-            
+            <h3 class="services_title">ERP Developer/Consultant</h3>
+            <p class="services__description">In my capacity as a CRM Implementer, I work with tools like Zoho CRM to
+              enhance customer relationship management processes. I lead the implementation of various CRM features,
+              manage data import/export, create customized reports, and provide training to users, ultimately driving
+              better customer engagement and informed decision-making.
+
+            </p>
+
             <span class="services__no">04</span>
-        </div>
-      </div>
-    </section>
-    <!-- ================ SKILLS ====================== -->
-    <section class="skills section">
-      <h2 class="section__title title-center" data-title="My Talent">
-        Professional Skills
-      </h2>
-
-      <div class="skills__container container grid">
-        <div class="skills__item">
-          <div class="skills__tatles">
-            <h3 class="skills__name">Java</h3>
-            <span class="skills__no">70%</span>
           </div>
-          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
-            P</p>
+        </div>
+      </section>
+      <!-- ================ SKILLS ====================== -->
+      <section class="skills section">
+        <h2 class="section__title title-center" data-title="My Talent">
+          Professional Skills
+        </h2>
 
-            <div class="skills__bar">
-              <div class="skills__percentage" style="width: 85%">
-                <span></span>
-              </div>
+        <div class="skills__container container grid">
+          <div class="skills__item">
+            <div class="skills__tatles">
+              <h3 class="skills__name">Java</h3>
+              <span class="skills__no">70%</span>
             </div>
-        </div>
-
-        <div class="skills__item">
-          <div class="skills__tatles">
-            <h3 class="skills__name">Spring Boot</h3>
-            <span class="skills__no">70%</span>
-          </div>
-          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
-            P</p>
-
-            <div class="skills__bar">
-              <div class="skills__percentage" style="width: 75%">
-                <span></span>
-              </div>
-            </div>
-        </div>
-
-        <div class="skills__item">
-          <div class="skills__tatles">
-            <h3 class="skills__name">MySQL</h3>
-            <span class="skills__no">70%</span>
-          </div>
-          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
-            P</p>
-
-            <div class="skills__bar">
-              <div class="skills__percentage" style="width: 90%">
-                <span></span>
-              </div>
-            </div>
-        </div>
-
-        <div class="skills__item">
-          <div class="skills__tatles">
-            <h3 class="skills__name">JavaScript</h3>
-            <span class="skills__no">70%</span>
-          </div>
-          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
-            P</p>
-
-            <div class="skills__bar">
-              <div class="skills__percentage" style="width: 75%">
-                <span></span>
-              </div>
-            </div>
-        </div>
-
-        <div class="skills__item">
-          <div class="skills__tatles">
-            <h3 class="skills__name">HTML</h3>
-            <span class="skills__no">70%</span>
-          </div>
-          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
-            P</p>
+            <p class="skills__description">A robust, object-oriented programming language that enables the development
+              of platform-independent applications, emphasizing portability and scalability.</p><br/>
 
             <div class="skills__bar">
               <div class="skills__percentage" style="width: 70%">
                 <span></span>
               </div>
             </div>
-        </div>
-
-        <div class="skills__item">
-          <div class="skills__tatles">
-            <h3 class="skills__name">CSS</h3>
-            <span class="skills__no">70%</span>
           </div>
-          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
-            P</p>
+
+          <div class="skills__item">
+            <div class="skills__tatles">
+              <h3 class="skills__name">Spring Boot</h3>
+              <span class="skills__no">60%</span>
+            </div>
+            <p class="skills__description">A framework that simplifies Java application development by providing
+              production-ready features and convention-over-configuration, making it easy to create stand-alone
+              applications.</p>
 
             <div class="skills__bar">
-              <div class="skills__percentage" style="width: 80%">
+              <div class="skills__percentage" style="width: 60%">
                 <span></span>
               </div>
             </div>
-        </div>
-
-        <div class="skills__item">
-          <div class="skills__tatles">
-            <h3 class="skills__name">React</h3>
-            <span class="skills__no">70%</span>
           </div>
-          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
-            P</p>
+
+          <div class="skills__item">
+            <div class="skills__tatles">
+              <h3 class="skills__name">MySQL</h3>
+              <span class="skills__no">50%</span>
+            </div>
+            <p class="skills__description">A widely-used relational database management system known for its
+              reliability, speed, and ease of use, ideal for managing structured data in web applications.</p><br/>
 
             <div class="skills__bar">
-              <div class="skills__percentage" style="width: 85%">
+              <div class="skills__percentage" style="width: 50%">
                 <span></span>
               </div>
             </div>
-        </div>
-
-        <div class="skills__item">
-          <div class="skills__tatles">
-            <h3 class="skills__name">Docker</h3>
-            <span class="skills__no">70%</span>
           </div>
-          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
-            P</p>
+
+          <div class="skills__item">
+            <div class="skills__tatles">
+              <h3 class="skills__name">JavaScript</h3>
+              <span class="skills__no">30%</span>
+            </div>
+            <p class="skills__description">A versatile scripting language that allows for dynamic content creation on
+              web pages, enabling interactive features and enhancing user experience.</p>
 
             <div class="skills__bar">
-              <div class="skills__percentage" style="width: 85%">
+              <div class="skills__percentage" style="width: 30%">
                 <span></span>
               </div>
             </div>
-        </div>
-
-        <div class="skills__item">
-          <div class="skills__tatles">
-            <h3 class="skills__name">Kubernate</h3>
-            <span class="skills__no">70%</span>
           </div>
-          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
-            P</p>
+
+          <div class="skills__item">
+            <div class="skills__tatles">
+              <h3 class="skills__name">HTML</h3>
+              <span class="skills__no">50%</span>
+            </div>
+            <p class="skills__description">The foundational markup language for creating web content, structuring text,
+              images, and other elements to display on the web.</p><br/>
 
             <div class="skills__bar">
-              <div class="skills__percentage" style="width: 85%">
+              <div class="skills__percentage" style="width: 50%">
                 <span></span>
               </div>
             </div>
-        </div>
-
-        <div class="skills__item">
-          <div class="skills__tatles">
-            <h3 class="skills__name">ZOHO CRM</h3>
-            <span class="skills__no">70%</span>
           </div>
-          <p class="skills__description">: SpringBoot, Microservices, Eclipse, NetBeans, Intellij, Git, GitHub, Postman, Mongo DB, MySQL,
-            P</p>
+
+          <div class="skills__item">
+            <div class="skills__tatles">
+              <h3 class="skills__name">CSS</h3>
+              <span class="skills__no">40%</span>
+            </div>
+            <p class="skills__description">A style sheet language that controls the visual presentation of web pages,
+              allowing for layout adjustments, color schemes, and responsive designs.</p><br/>
 
             <div class="skills__bar">
-              <div class="skills__percentage" style="width: 85%">
+              <div class="skills__percentage" style="width: 40%">
                 <span></span>
               </div>
             </div>
-        </div>
-      </div>
+          </div>
 
-    </section>
-    <!-- ================ PORTFOLIO =================== -->
+          <div class="skills__item">
+            <div class="skills__tatles">
+              <h3 class="skills__name">ReactJs</h3>
+              <span class="skills__no">30%</span>
+            </div>
+            <p class="skills__description">A JavaScript library for building user interfaces that promotes
+              component-based architecture, facilitating efficient updates and rendering of dynamic content.</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 30%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__tatles">
+              <h3 class="skills__name">Docker</h3>
+              <span class="skills__no">30%</span>
+            </div>
+            <p class="skills__description">A containerization platform that enables developers to package applications
+              with their dependencies, ensuring consistency across different environments.</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 30%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__tatles">
+              <h3 class="skills__name">Kubernate</h3>
+              <span class="skills__no">30%</span>
+            </div>
+            <p class="skills__description">An orchestration tool for automating the deployment, scaling, and management
+              of containerized applications, providing high availability and load balancing.</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 30%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__tatles">
+              <h3 class="skills__name">ZOHO CRM</h3>
+              <span class="skills__no">60%</span>
+            </div>
+            <p class="skills__description">A customer relationship management platform that centralizes customer data,
+              streamlines sales processes, and enhances collaboration across teams for better customer engagement.
+
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 60%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- ================ PORTFOLIO =================== -->
       <section class="works section" id="works">
         <h2 class="section__title title-center" data-title="My Talent">
           Recent Work
@@ -591,8 +650,8 @@
 
         </div>
       </section>
-    <!-- ================ Testimonials ================ -->
-     <section class="testimonials section">
+      <!-- ================ Testimonials ================ -->
+      <!-- <section class="testimonials section">
       <h2 class="section__title title-center" data-title="Testimonials">
         What My client Say
       </h2>
@@ -626,115 +685,127 @@
             </div>
         </div>
       </div>
-     </section>
+     </section> -->
 
-    <!-- ================ CONTACT ===================== -->
-    <section class="contact section" id="contact">
-      <h2 class="section__title title-center" data-title="Get in touch">
-        Contact Me
-      </h2>
+      <!-- ================ CONTACT ===================== -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="Get in touch">
+          Contact Me
+        </h2>
 
-      <div class="contact__container container grid">
-        <div class="contact__details">
-          <div class="contact__item">
-            <i class="fa-solid fa-phone contact__icon"></i>
+        <div class="contact__container container grid">
+          <div class="contact__details">
+            <div class="contact__item">
+              <i class="fa-solid fa-phone contact__icon"></i>
 
-            <div>
-              <h3 class="contact__title">Call Me</h3>
-              <span class="contact__data">+91 8888200312</span>
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__data">+91 8888200312</span>
+              </div>
             </div>
+
+            <div class="contact__item">
+              <i class="fa-solid fa-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email Me</h3>
+                <span class="contact__data">jaiswalvikas7276@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid fa-location-dot contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Address</h3>
+                <span class="contact__data">Old Bazar Road, Majalgaon, Beed, Maharashtra-431131</span>
+              </div>
+            </div>
+
+
           </div>
 
-          <div class="contact__item">
-            <i class="fa-solid fa-envelope contact__icon"></i>
+          <form action="" class="contact__form">
+            <div class="form__group">
+              <div class="form__input">
+                <input type="text" placeholder="Name" class="input__control">
+              </div>
 
-            <div>
-              <h3 class="contact__title">Email Me</h3>
-              <span class="contact__data">jaiswalvikas7276@gmail.com</span>
+              <div class="form__input">
+                <input type="email" placeholder="Email" class="input__control">
+              </div>
             </div>
-          </div>
 
-          <div class="contact__item">
-            <i class="fa-solid fa-location-dot contact__icon"></i>
-
-            <div>
-              <h3 class="contact__title">Address</h3>
-              <span class="contact__data">Old Bazar Road, Majalgaon, Beed, Maharashtra-431131</span>
-            </div>
-          </div>
-
-
-        </div>
-
-        <form action="" class="contact__form">
-          <div class="form__group">
             <div class="form__input">
-            <input type="text" placeholder="Name" class="input__control">
+              <input type="text" placeholder="Subject" class="input__control">
+            </div>
+
+            <div class="form__input">
+              <textarea name="" id="" placeholder="Message" cols="30" rows="10"
+                class="input__control textarea"></textarea>
+            </div>
+
+            <button class="btn contact__btn">Send Message</button>
+          </form>
+        </div>
+
+      </section>
+      <!-- ================ FOOTER ====================== -->
+      <footer class="footer">
+        <div class="footer__container container">
+          <p class="footer__copyright">&copy; 2024 Vikas. All Rights Reserved</p>
+
+
+          <div class="footer__social-links">
+
+            <a href="" class="footer__social-links">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x"
+                viewBox="0 0 16 16">
+                <path
+                  d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+              </svg>
+
+            </a>
+
+            <a href="" class="footer__social-links">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+              </svg>
+            </a>
+
+            <a href="" class="footer__social-links">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+                viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+              </svg>
+            </a>
+
+            <a href="" class="footer__social-links">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+              </svg>
+            </a>
           </div>
-
-          <div class="form__input">
-            <input type="email" placeholder="Email" class="input__control">
-          </div>
         </div>
 
-        <div class="form__input">
-          <input type="text" placeholder="Subject" class="input__control">
-        </div>
+      </footer>
 
-        <div class="form__input">
-          <textarea name="" id="" placeholder="Message"  cols="30" rows="10" class="input__control textarea"></textarea>
-        </div>
-
-        <button class="btn contact__btn">Send Message</button>
-        </form>
-      </div>
-
-    </section>
-    <!-- ================ FOOTER ====================== -->
-    <footer class="footer">
-      <div class="footer__container container">
-        <p class="footer__copyright">&copy; 2024 Vikas. All Rights Reserved</p>
-
-
-        <div class="footer__social-links">
-
-          <a href="" class="footer__social-links">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="bi bi-twitter-x" viewBox="0 0 16 16">
-              <path
-                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
-            </svg>
-
-          </a>
-
-          <a href="" class="footer__social-links">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="bi bi-instagram" viewBox="0 0 16 16">
-              <path
-                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
-            </svg>
-          </a>
-
-          <a href="" class="footer__social-links">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="bi bi-facebook" viewBox="0 0 16 16">
-              <path
-                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
-            </svg>
-          </a>
-
-          <a href="" class="footer__social-links">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
-              viewBox="0 0 16 16">
-              <path
-                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-            </svg>
-          </a>
-        </div>
-      </div>
-
-    </footer>
+    </div>
   </main>
+
+  <script>
+    const navToggle = document.getElementById('nav__toggle__1');
+    const navList = document.querySelector('.nav__list');
+
+    navToggle.addEventListener('click', () => {
+      navList.classList.toggle('active');
+    });
+  </script>
 </body>
 
 </html>
