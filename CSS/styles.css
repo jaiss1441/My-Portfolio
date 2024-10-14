@@ -1089,7 +1089,7 @@ body {
 
 .work__title,
 .work__description {
-    color: var(--white);
+    color: var(--first-color);
     transform: translateY(1.5rem);
     transition: all .3s ease-in-out;
 }
